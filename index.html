@@ -1,1 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#08080d">
+<title>For Ruby ♡</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div id="stars"></div>
+<div class="glow glow-one"></div>
+<div class="glow glow-two"></div>
+
+<audio id="music" loop>
+<source src="music/october.mp3" type="audio/mpeg">
+</audio>
+
+<main id="experience">
+
+<section class="screen active" id="opening">
+<div class="opening-content">
+<p class="tiny-text">I made something for you.</p>
+
+<h1>Ruby<span>♡</span></h1>
+
+<p class="opening-subtitle">
+Before you open this...
+<br>
+just know that every part of it was made with you in mind.
+</p>
+
+<button class="main-button" onclick="startStory()">
+Start our story <span>♡</span>
+</button>
+</div>
+</section>
+
+
+<section class="screen" id="chapter1">
+
+<div class="chapter">
+
+<p class="chapter-number">01</p>
+
+<h2>It started in October.</h2>
+
+<p class="story-text">
+Before there were memories, dates, pictures,
+inside jokes, Sunday mornings, or little walks...
+</p>
+
+<p class="story-text">
+there was just two people who happened to find
+each other on Snapchat.
+</p>
+
+<div class="memory-card">
+
+<div class="photo-placeholder">
+<span>📸</span>
+<p>Add your first photo later</p>
+</div>
+
+</div>
+
+<p class="highlight">
+And somehow, October became our month.
+</p>
+
+<button class="next-button" onclick="nextChapter()">
+Keep going →
+</button>
+
+</div>
+
+</section>
+
+
+<section class="screen" id="chapter2">
+
+<div class="chapter">
+
+<p class="chapter-number">02</p>
+
+<h2>The first time I saw you.</h2>
+
+<div class="photo-placeholder large">
+<span>📸</span>
+<p>Add the volleyball photo later</p>
+</div>
+
+<p class="story-text">
+I still think it's funny that the first time we met
+in person, I showed up at your volleyball game.
+</p>
+
+<p class="story-text">
+And then somehow our first adventure ended at McDonald's.
+</p>
+
+<div class="memory-card nugget-card">
+
+<div class="nugget">🍗</div>
+
+<h3>The legendary 4-piece.</h3>
+
+<p>
+You got a 4-piece chicken nugget.
+We proceeded to play-fight over who was paying.
+</p>
+
+<p class="small-note">
+(I won. Obviously.)
+</p>
+
+</div>
+
+<button class="next-button" onclick="nextChapter()">
+There's more →
+</button>
+
+</div>
+
+</section>
+
+
+<section class="screen" id="chapter3">
+
+<div class="chapter">
+
+<p class="chapter-number">03</p>
+
+<h2>The little things.</h2>
+
+<p class="story-text">
+Some of my favorite memories aren't necessarily
+the biggest ones.
+</p>
+
+<p class="story-text">
+They're the random little moments that somehow
+became <em>ours.</em>
+</p>
+
+<div class="memory-grid">
+
+<div class="mini-memory">
+
+<div class="photo-placeholder">
+<span>🎃</span>
+<p>Add Halloween photo</p>
+</div>
+
+<h3>Halloween</h3>
+
+<p>
+Our favorite memory.
+And honestly, I understand why.
+</p>
+
+</div>
+
+
+<div class="mini-memory">
+
+<div class="photo-placeholder">
+<span>🚶</span>
+<p>Add walking photo</p>
+</div>
+
+<h3>Little walks</h3>
+
+<p>
+Nothing crazy. Just us walking around,
+talking about whatever.
+</p>
+
+</div>
+
+
+<div class="mini-memory">
+
+<div class="photo-placeholder">
+<span>👟</span>
+<p>Add shoe photo</p>
+</div>
+
+<h3>Switching shoes</h3>
+
+<p>
+Because apparently walking in each other's
+shoes was a necessary life experience.
+</p>
+
+</div>
+
+
+<div class="mini-memory">
+
+<div class="photo-placeholder">
+<span>🍳</span>
+<p>Add breakfast photo</p>
+</div>
+
+<h3>Sunday mornings</h3>
+
+<p>
+Those little breakfast hangouts that somehow
+became some of my favorite moments.
+</p>
+
+</div>
+
+</div>
+
+<button class="next-button" onclick="nextChapter()">
+One more thing →
+</button>
+
+</div>
+
+</section>
+
+
+<section class="screen" id="chapter4">
+
+<div class="chapter">
+
+<p class="chapter-number">04</p>
+
+<h2>And then there's you.</h2>
+
+<p class="story-text">
+There are a million things I could say about you,
+but some of them are impossible to explain.
+</p>
+
+
+<div class="love-card">
+
+<div class="heart">♡</div>
+
+<p>
+You're kind to me even when I don't feel like
+I deserve it.
+</p>
+
+</div>
+
+
+<div class="love-card">
+
+<div class="heart">♡</div>
+
+<p>
+You understand emotions in a way that genuinely
+amazes me.
+</p>
+
+</div>
+
+
+<div class="love-card">
+
+<div class="heart">♡</div>
+
+<p>
+Somehow, you always seem to know exactly what
+to say.
+</p>
+
+</div>
+
+
+<div class="love-card">
+
+<div class="heart">♡</div>
+
+<p>
+And somehow, through everything, you still
+manage to be you.
+</p>
+
+</div>
+
+
+<button class="next-button" onclick="nextChapter()">
+There's something I remembered... 👀
+</button>
+
+</div>
+
+</section>
+
+
+<section class="screen" id="chapter5">
+
+<div class="chapter">
+
+<p class="chapter-number">05</p>
+
+<h2>Important information.</h2>
+
+<div class="candy-box">
+
+<div class="candy-icon">🍫</div>
+
+<h3>The candy list.</h3>
+
+<p>
+You told me these were some of your favorite
+candies when we first started talking.
+</p>
+
+<div class="candy-list">
+
+<span>Toblerone</span>
+
+<span>Chocolate-covered raisins</span>
+
+<span>Charleston Chews</span>
+
+</div>
+
+<p class="small-note">
+I have no idea if these are still your favorites,
+so please don't come for me if the information
+is outdated 😭
+</p>
+
+</div>
+
+
+<div class="secret-box" onclick="revealSecret(this)">
+
+<span>?</span>
+
+<p>
+There might be something hidden here.
+</p>
+
+</div>
+
+
+<button class="next-button" onclick="nextChapter()">
+Keep going →
+</button>
+
+</div>
+
+</section>
+
+
+<section class="screen darker" id="chapter6">
+
+<div class="chapter">
+
+<p class="chapter-number">06</p>
+
+<h2>We've been through a lot.</h2>
+
+<p class="story-text">
+Our story hasn't always been easy.
+</p>
+
+<p class="story-text">
+There have been moments that hurt.
+Moments where things didn't go the way we wanted.
+Moments where it felt like maybe our story had ended.
+</p>
+
+<div class="pause-message">
+
+<span>♡</span>
+
+<p>
+Almost six months passed without us being
+part of each other's lives.
+</p>
+
+</div>
+
+<p class="story-text">
+And somehow...
+</p>
+
+<p class="highlight big">
+we're still here.
+</p>
+
+<button class="next-button" onclick="nextChapter()">
+See why that matters →
+</button>
+
+</div>
+
+</section>
+
+
+<section class="screen" id="chapter7">
+
+<div class="chapter">
+
+<p class="chapter-number">07</p>
+
+<h2>9 months & 27 days.</h2>
+
+<div class="counter-ring">
+
+<div>
+
+<span>♡</span>
+
+<p>our story</p>
+
+</div>
+
+</div>
+
+<p class="story-text">
+Maybe the number isn't what matters.
+</p>
+
+<p class="story-text">
+Maybe what matters is everything that happened
+during those days.
+</p>
+
+<p class="story-text">
+Every laugh.
+Every conversation.
+Every stupid joke.
+Every memory.
+Every hard moment.
+Every time we found our way back.
+</p>
+
+<button class="next-button" onclick="nextChapter()">
+Almost there →
+</button>
+
+</div>
+
+</section>
+
+
+<section class="screen final-screen" id="final">
+
+<div class="final-content">
+
+<p class="tiny-text">
+And after everything...
+</p>
+
+<h2>
+I still choose you.
+</h2>
+
+
+<div class="final-message">
+
+<p>
+I know I'm not perfect, but I found someone that
+can accept those imperfections, and you are that person.
+</p>
+
+<p>
+You'll always be such a wonderful person and I want
+to experience life with that person, with you.
+</p>
+
+</div>
+
+
+<div class="final-line">
+
+<span></span>
+
+<span>♡</span>
+
+<span></span>
+
+</div>
+
+
+<p class="ending">
+Maybe everything we've been through
+has been worth it...
+</p>
+
+<p class="ending strong">
+because we have each other.
+</p>
+
+
+<button class="secret-final-button" onclick="finalSecret()">
+one more thing ♡
+</button>
+
+<p id="final-secret" class="hidden-final">
+tandem red log 😭❤️
+</p>
+
+</div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
